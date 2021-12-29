@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>타이핑 마스터!</h1>
+    </header>
+    <main>
+        <!--제시어-->
+        <div class="suggestion"> 
+            <span>제시어</span>
+        </div>
+
+        <!--타이핑-->
+        <div class="typing">
+            <input type="text" id="input">
+        </div>
+
+        <!-- 남은 시간, 점수 -->
+        <div class="time_and_score">
+            <div class="time">
+                남은 시간 : <span class="count">5</span>초
+            </div>
+            <div class="score">
+                획득 점수 : <span class="count">0</span>점
+            </div>
+        </div>
+        
+        <!--게임 시작 버튼  -->
+        <button class="start_btn">
+            게임시작
+        </button>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
