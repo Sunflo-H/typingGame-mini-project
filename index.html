@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing Game</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -13,13 +13,13 @@
     </header>
     <main>
         <!--제시어-->
-        <div class="suggestion"> 
-            <span>제시어</span>
+        <div class="word-display"> 
+           게임 시작을 눌러봐~
         </div>
 
         <!--타이핑-->
-        <div class="typing">
-            <input type="text" id="input">
+        <div class="word-input-box">
+            <input type="text" class="word-input" disabled>
         </div>
 
         <!-- 남은 시간, 점수 -->
@@ -37,6 +37,6 @@
             게임시작
         </button>
     </main>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
